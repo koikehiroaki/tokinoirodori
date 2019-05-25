@@ -12,7 +12,7 @@ main {
 
 @media screen and (max-width:750px){
     main{
-        width: 600px;
+        width: 100%;
         margin: 0 auto;
     }
 }
@@ -32,13 +32,23 @@ h1 {
     line-height: 145px;
 }
 
+@media screen and (max-width:750px){
+    h1{
+        font-size: 30px;
+        height: 90px;
+        line-height: 90px;
+        width: 100%;
+    }
+}
+
 nav {
     background: #ff9d00;
 }
 
 @media screen and (max-width:750px){
     nav{
-         width: 100%;
+        padding: 0 50px;
+        background: #ff9d00;
     }
 }
 
@@ -51,10 +61,7 @@ nav ul {
 
 @media screen and (max-width:750px){
     nav ul {
-        display: flex;
-        justify-content: space-between;
-        width: 650px;
-        margin: 0 auto;
+        width: 100%;
     }
 }
 
@@ -68,8 +75,8 @@ nav ul li {
 
 @media screen and (max-width:750px){
     nav ul li {
-    width: 150px;
-
+        width: 100%;
+        font-size: 18px;
 }
 }
 
@@ -103,10 +110,28 @@ nav ul li a {
     /*font-weight: normal;*/
 }
 
+@media screen and (max-width:750px){
+    .sectionbox {
+        font-size: 35px;
+    }
+}
+
+
 
 .main-p {
-    margin: 25px 0px 0px 0px;
+    margin: 45px 0px 0px 0px;
     text-align: center;
+   
+}
+
+@media screen and (max-width:750px){
+  .main-p {
+      margin: 30px 50px 0px;
+}
+}
+
+.top-p-gg {
+     width: 100%;
 }
 
 .top-p-g,.top-p-gg,.top-p-ggg {
@@ -115,14 +140,34 @@ nav ul li a {
 
 @media screen and (max-width:750px){
   .top-p-gg {
-      width: 600px;
-      display: block;
+      width: 100%;
 }
 }
+
+@media screen and (max-width:750px){
+    .overviewsection {
+    margin: 0 50px;
+}
+}
+
 
 .overview {
     font-size: 20px;
 }
+
+@media screen and (max-width:750px){
+    .overview {
+        width: 100%;
+        font-size: 15px;
+}
+}
+
+@media screen and (max-width:750px){
+    .imagesection {
+        margin: 0px 50px;
+    }
+}
+
 
 .sub-p {
     display: flex;
@@ -132,17 +177,19 @@ nav ul li a {
 }
 
 @media screen and (max-width:750px){
-    .sub-p {
-        width: 600px;
+    .sub_item {
+        margin-right: 25px;
+    }
+    .sub_item:last-child {
+        margin-right: 0px;
     }
 }
 
 @media screen and (max-width:750px){
     .top-p-g {
-        width: 180px;
+        width: 100%;
     }
 }
-
 
 .sub-pp {
     display: flex;
@@ -151,8 +198,17 @@ nav ul li a {
 }
 
 @media screen and (max-width:750px){
+    .pp_item {
+        margin-right: 25px;
+    }
+    .pp_item:last-child {
+        margin-right: 0px;
+    }
+}
+
+@media screen and (max-width:750px){
     .top-p-ggg {
-        width: 280px;
+        width: 100%;
     }
 }
 
@@ -161,6 +217,14 @@ footer {
     margin-top: 30px;
     padding: 20px;
 }
+
+@media screen and (max-width:750px){
+    .copy {
+        font-size: 15px;
+    }
+}
+
+
 
 .foo {
     margin-bottom: 15px;
